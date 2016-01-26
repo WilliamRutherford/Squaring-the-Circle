@@ -2,7 +2,7 @@
 
 bool inCircle(int radius, int i, int j)
 {
-	return 
+	return pow(i, 2) + pow(j, 2) <= pow(radius, 2)
 }
 
 int areaCircle(int radius)
